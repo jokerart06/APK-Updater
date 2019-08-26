@@ -30,7 +30,7 @@ public class SettingsActivity extends PreferenceActivity {
                         //.setUpdateFrom(UpdateFrom.GITHUB)
                         //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.XML)
-                        .setUpdateXML("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update-changelog.xml")
+                        .setUpdateXML("https://raw.githubusercontent.com/jokerart06/APK-Updater/master/app/update-changelog.xml")
                         .setDisplay(Display.DIALOG)
                         .showAppUpdated(true)
                         .start();
